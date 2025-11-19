@@ -1,3 +1,5 @@
+# LOGIKA NOT DENGAN PERCEPTRON LEARNING RULE
+
 import numpy as np
 
 # Data input (Logika NOT hanya butuh 1 input)
@@ -63,4 +65,5 @@ print("\n=== Hasil Akhir Setelah Training ===")
 print("Input | Target NOT | Output Prediksi")
 for i in range(len(inputs)):
     prediction = predict(inputs[i])
+
     print(f"  {inputs[i,0]}   |      {targets[i]}     |      {prediction}")
